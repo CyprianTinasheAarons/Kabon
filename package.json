@@ -1,5 +1,5 @@
 {
-  "name": "paynow-ui",
+  "name": "kabonstream",
   "version": "1.0.0",
   "description": "My project for me to accept payments over the web",
   "author": "Kudakwashe Paradzayi <kgparadzayi@gmail.com>",
@@ -72,5 +72,15 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyprianTinasheAarons/kabon.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CyprianTinasheAarons/kabon/issues"
+  },
+  "homepage": "https://github.com/CyprianTinasheAarons/kabon#readme"
 }

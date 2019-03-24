@@ -2,19 +2,47 @@
   <div id="app px-4 relative">
     <nav class="sticky pin-t z-50 w-full bg-white flex items-center justify-between px-4 py-4">
       <button @click="isMenuOpen = !isMenuOpen" class="hamburger-menu"></button>
-      <input type="text" class="p-4 bg-grey-lighter rounded" placeholder="Search for music">
+      <input type="text" class="p-4 bg-grey-lighter rounded-lg w-64 h-5 text-xs" placeholder="Search for music ,podcasts and ....">
+      
       <a href="#" class="logo inline-block bg-pink h-6 w-6 rounded-full">&nbsp;</a>
     </nav>
 
     <aside
       class="fixed z-40 smooth-slide"
-      :style="{width: isMenuOpen ? '100%': '0px', opacity: isMenuOpen ? 1 : 0  }"
+      :style="{width: isMenuOpen ? '25%': '0px', opacity: isMenuOpen ? 1 : 0  }"
     >
       <div class="h-screen w-full bg-white py-24 px-4">
-        <ul class="list-reset">
-          <li class="block py-4 border-b">🔥 Hot 100</li>
-          <li class="block py-4 border-b">🎧 My playlist</li>
-          <li class="block py-4 border-b">⏱ Recently added</li>
+        <ul >
+          <li class="block py-4 border-b">
+            <router-link  to="/"> 🏠 Home</router-link>
+            </li>
+          <li class="block py-4 border-b">
+            <router-link  to="/Hot100">  🔥 Hot 100</router-link>
+            </li>
+          <li class="block py-4 border-b">
+            <router-link to="/Playlist">
+            🎧 My playlist
+            </router-link>
+            </li>
+             
+          <li class="block py-4 border-b">
+            <router-link to="/recentlyadded">
+            ⏱ Recently added
+            </router-link>
+            </li>
+                    
+          <li class="block py-4 border-b">
+            <router-link to="/login">
+            🚀 Login
+            </router-link>
+            </li>
+                    
+          <li class="block py-4 border-b">
+            <router-link to="/signup">
+            ⭐ Signup
+            </router-link>
+            </li>
+
         </ul>
       </div>
     </aside>
@@ -51,7 +79,7 @@ body {
 .hamburger-menu {
   position: relative;
   height: 2px;
-  @apply w-6 bg-grey-darkest mt-2 mb-2;
+  @apply w-6  bg-grey-darkest mt-2 mb-2;
 }
 
 .hamburger-menu::before {
