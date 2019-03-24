@@ -2,7 +2,10 @@
   <div>
     <!-- Hero section, App name and description -->
     <div class="hero-section py-16 px-6 text-white -mx-4 mb-10">
+<<<<<<< HEAD
       
+=======
+>>>>>>> c24bdb0cc847d19df8db6cd9346720948cf9d1fa
       <h1 class="mb-6">Listen to the best local music and international music on Kabon Stream </h1>
       <p
         class="mb-6"

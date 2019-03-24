@@ -12,6 +12,7 @@
       :style="{width: isMenuOpen ? '25%': '0px', opacity: isMenuOpen ? 1 : 0  }"
     >
       <div class="h-screen w-full bg-white py-24 px-4">
+<<<<<<< HEAD
         <ul >
           <li class="block py-4 border-b">
             <router-link  to="/"> 🏠 Home</router-link>
@@ -22,6 +23,19 @@
           <li class="block py-4 border-b">
             <router-link to="/Playlist">
             🎧 My playlist
+=======
+        <ul class="list-reset">
+          <li class="block py-4 border-b">
+            <router-link class="nav-link" to="/"> 🏠 Home</router-link>
+            </li>
+          <li class="block py-4 border-b">
+            <router-link  to="/Hot100">  🔥 Hot 100</router-link>
+          
+            </li>
+          <li class="block py-4 border-b">
+            <router-link to="/Playlist">
+🎧 My playlist
+>>>>>>> c24bdb0cc847d19df8db6cd9346720948cf9d1fa
             </router-link>
             </li>
              
@@ -32,14 +46,23 @@
             </li>
                     
           <li class="block py-4 border-b">
+<<<<<<< HEAD
             <router-link to="/login">
+=======
+            <router-link to="/">
+>>>>>>> c24bdb0cc847d19df8db6cd9346720948cf9d1fa
             🚀 Login
             </router-link>
             </li>
                     
           <li class="block py-4 border-b">
+<<<<<<< HEAD
             <router-link to="/signup">
             ⭐ Signup
+=======
+            <router-link to="/">
+            Signup
+>>>>>>> c24bdb0cc847d19df8db6cd9346720948cf9d1fa
             </router-link>
             </li>
 

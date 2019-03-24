@@ -10,6 +10,7 @@
             Rating:⭐⭐⭐⭐⭐
           </p>
 
+<<<<<<< HEAD
           <p>
             Song:Geza Bus </p>
             <p>
@@ -27,6 +28,9 @@
     
 
   </div>
+=======
+
+>>>>>>> c24bdb0cc847d19df8db6cd9346720948cf9d1fa
 </template>
 
 <style>

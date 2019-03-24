@@ -1,6 +1,6 @@
-# paynow-ui
+# KabonStream
 
-> My project for me to accept payments over the web
+>Built using vuejs ,tailwind 
 
 ## Build Setup
 
